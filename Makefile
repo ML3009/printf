@@ -3,16 +3,17 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: AMODIFIERmvautrot <mvautrot@student.42.fr>                      +#+  +:+       +#+         #
+#    By: mvautrot <mvautrot@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/12/02 16:54:38 by ml                #+#    #+#              #
-#    Updated: 2022/12/02 16:54:38 by ml               ###   ########.fr        #
+#    Created: 2022/12/08 13:11:04 by mvautrot          #+#    #+#              #
+#    Updated: 2022/12/08 13:11:05 by mvautrot         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
+
 NAME=libftprintf.a
 
-CC=gcc
+CC=cc
 CFLAGS=-Wall -Wextra -Werror
 
 SRC=ft_printf.c\
