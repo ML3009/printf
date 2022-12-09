@@ -6,11 +6,11 @@
 /*   By: mvautrot <mvautrot@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 10:10:46 by mvautrot          #+#    #+#             */
-/*   Updated: 2022/12/09 14:56:12 by mvautrot         ###   ########.fr       */
+/*   Updated: 2022/12/09 16:51:27 by mvautrot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "ft_printf.h"
 
 int ft_putstr(char *s)
 {
@@ -20,8 +20,8 @@ int ft_putstr(char *s)
     
     if (!s)
     {
-        write(1, "null", 4);
-        return (4);
+        write(1, "(null)", 6);
+        return (6);
     }
     i = 0;
     while (s[i])

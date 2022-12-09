@@ -6,13 +6,13 @@
 /*   By: mvautrot <mvautrot@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 13:06:17 by mvautrot          #+#    #+#             */
-/*   Updated: 2022/12/09 14:40:41 by mvautrot         ###   ########.fr       */
+/*   Updated: 2022/12/09 15:17:45 by mvautrot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "ft_printf.h"
 
-int    ft_unsign_nb(unsigned int nb)//ahah
+int    ft_unsign_nb(unsigned int nb)
 {
     long long int i;
     int len;
@@ -24,7 +24,7 @@ int    ft_unsign_nb(unsigned int nb)//ahah
         len+=ft_putnbr(i / 10);
         len+=ft_putchar(i % 10 + '0');
     }
-    else//ahah
+    else
         len+=ft_putchar(i + '0');
         
     return(len);

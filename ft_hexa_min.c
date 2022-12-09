@@ -6,11 +6,11 @@
 /*   By: mvautrot <mvautrot@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 10:29:37 by mvautrot          #+#    #+#             */
-/*   Updated: 2022/12/09 14:56:06 by mvautrot         ###   ########.fr       */
+/*   Updated: 2022/12/09 15:17:54 by mvautrot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "libftprintf.h"
+# include "ft_printf.h"
 
 int ft_hexa_min(unsigned int nb)
 {

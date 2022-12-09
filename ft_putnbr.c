@@ -6,11 +6,11 @@
 /*   By: mvautrot <mvautrot@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 10:12:36 by mvautrot          #+#    #+#             */
-/*   Updated: 2022/12/09 12:44:38 by mvautrot         ###   ########.fr       */
+/*   Updated: 2022/12/09 15:17:51 by mvautrot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "ft_printf.h"
 
 int   ft_putnbr(int n)
 {

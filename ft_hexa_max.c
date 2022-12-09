@@ -6,11 +6,11 @@
 /*   By: mvautrot <mvautrot@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 13:00:33 by mvautrot          #+#    #+#             */
-/*   Updated: 2022/12/09 14:47:26 by mvautrot         ###   ########.fr       */
+/*   Updated: 2022/12/09 15:17:56 by mvautrot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#include "ft_printf.h"
 
 int ft_hexa_max(unsigned int nb)
 {
