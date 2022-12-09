@@ -6,13 +6,16 @@
 /*   By: mvautrot <mvautrot@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 10:07:52 by mvautrot          #+#    #+#             */
-/*   Updated: 2022/12/08 10:10:28 by mvautrot         ###   ########.fr       */
+/*   Updated: 2022/12/09 12:13:41 by mvautrot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libftprintf.h"
 
-void ft_putchar(char c)
+int ft_putchar(int c)
 {
-    write (1, &c, 1);
+    int len;
+    len = 0;
+    len+=write (1, &c, 1);//ahah
+    return(len);
 }

@@ -6,16 +6,18 @@
 /*   By: mvautrot <mvautrot@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 10:29:37 by mvautrot          #+#    #+#             */
-/*   Updated: 2022/12/08 13:32:52 by mvautrot         ###   ########.fr       */
+/*   Updated: 2022/12/09 14:56:06 by mvautrot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 # include "libftprintf.h"
 
-int ft_hexa_min(unsigned int nb, int len)
+int ft_hexa_min(unsigned int nb)
 {
     char    *base;
+    int len;
 
+    len = 0;
     base = "0123456789abcdef";
     if (nb >= 16)
     {
@@ -24,7 +26,7 @@ int ft_hexa_min(unsigned int nb, int len)
     }
     else 
         len+=ft_putchar(base[nb]);
-    return (len);
+    return(len);
 }
 
 /*int main (void)
