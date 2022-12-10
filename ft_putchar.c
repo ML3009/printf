@@ -6,14 +6,14 @@
 /*   By: mvautrot <mvautrot@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 10:07:52 by mvautrot          #+#    #+#             */
-/*   Updated: 2022/12/09 16:34:43 by mvautrot         ###   ########.fr       */
+/*   Updated: 2022/12/10 10:23:47 by mvautrot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int ft_putchar(int c)
+int	ft_putchar(int c)
 {
-    write (1, &c, 1);
-    return(1);
+	write (1, &c, 1);
+	return (1);
 }
